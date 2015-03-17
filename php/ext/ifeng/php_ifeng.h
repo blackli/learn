@@ -10,5 +10,6 @@
 #include "php.h"
 #define phpext_ifeng_ptr &ifeng_module_entry
 extern zend_module_entry ifeng_module_entry;
+extern zend_module_entry *myclass_ce;
 
 #endif
